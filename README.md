@@ -4,7 +4,6 @@
 This repository contains my solutions to **LeetCode** problems, organized by difficulty (Easy, Medium, Hard). Each solution includes:
 - **Code Implementation**: Written in Java.
 - **Explanations**: Clear and concise problem descriptions with step-by-step solutions.
-- **Unit Tests**: Ensuring the correctness of each solution with multiple test cases.
 
 ---
 
@@ -12,9 +11,11 @@ This repository contains my solutions to **LeetCode** problems, organized by dif
 
 ### Easy Problems
 - [Final Prices With a Special Discount in a Shop](src/main/java/org/example/easy/FinalPricesWithSpecialDiscount.java)
+    - [Explanation](src/main/java/org/example/easy/FinalPricesWithSpecialDiscount.md)
 
 ### Medium Problems
 - [Maximum Chunks to Make Sorted](src/main/java/org/example/medium/MaxChunksToSorted.java)
+    - [Explanation](src/main/java/org/example/medium/MaxChunksToSorted.md)
 
 ### Hard Problems
 *(Add links here as you solve more problems)*
@@ -34,17 +35,12 @@ LeetCode-Solutions/
 │   │   │       └── example/
 │   │   │           ├── easy/
 │   │   │           │   ├── FinalPricesWithSpecialDiscount.java
+│   │   │           │   ├── FinalPricesWithSpecialDiscount.md
 │   │   │           ├── medium/
 │   │   │           │   ├── MaxChunksToSorted.java
+│   │   │           │   ├── MaxChunksToSorted.md
 │   │   │           ├── hard/
 │   │   │           └── Main.java
-│   └── test/
-│       ├── org/
-│       │   └── example/
-│       │       └── easy/
-│       │           ├── FinalPricesWithSpecialDiscountTest.java
-│       │       └── medium/
-│       │           ├── MaxChunksToSortedTest.java
 ├── README.md
 ├── pom.xml
 ```
@@ -65,7 +61,7 @@ LeetCode-Solutions/
    cd LeetCode-Solutions
    ```
 2. Open the project in your IDE.
-3. Run the `Main` class in the desired package (e.g., `FinalPricesWithSpecialDiscountMain`).
+3. Run the `Main` class in the desired package (e.g., `FinalPricesWithSpecialDiscount`).
 
 ---
 
@@ -88,26 +84,6 @@ arr = [1, 0, 2, 3, 4]
 ### Example Output:
 ```
 Chunks = [[1, 0], [2], [3], [4]]
-```
-
----
-
-## How to Test the Solutions
-
-### Run Unit Tests
-This project uses JUnit for testing. To run the tests:
-1. Ensure Maven is installed.
-2. Run the following command:
-   ```bash
-   mvn test
-   ```
-
-### Example Test Output
-For `MaxChunksToSortedTest`:
-```
-Test case 1 passed.
-Test case 2 passed.
-Test case 3 passed.
 ```
 
 ---
