@@ -14,8 +14,8 @@ This repository contains my solutions to **LeetCode** problems, organized by dif
     - [Explanation](src/main/java/org/example/easy/FinalPricesWithSpecialDiscount.md)
 
 ### Medium Problems
-- [Maximum Chunks to Make Sorted](src/main/java/org/example/medium/MaxChunksToSorted.java)
-    - [Explanation](src/main/java/org/example/medium/MaxChunksToSorted.md)
+- [Maximum Chunks to Make Sorted](src/main/java/org/example/Medium/MaxChunksToSorted.java)
+    - [Explanation](src/main/java/org/example/Medium/MaxChunksToSorted.md)
 
 ### Hard Problems
 *(Add links here as you solve more problems)*
